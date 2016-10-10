@@ -29,7 +29,7 @@ do
 	read -r -a iline <&4
 	for((j=0;j<msizex;++j))
 	do
-	    if [ "${values[j]}" = "0" ]
+	    if [ "${values[j]}" = "1" ]
 	    then
 		for((jj=0;jj<30;++jj))
 		do
